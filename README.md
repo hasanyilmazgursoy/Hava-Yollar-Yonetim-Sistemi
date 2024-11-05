@@ -121,6 +121,4 @@ Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı y
 
 
 
-![Adsız](https://github.com/user-attachments/assets/0c233620-94dc-423c-8f13-2033e2fba44d)
-
 
