@@ -25,6 +25,7 @@
 - ### 👔 **Yönetici Kullanıcılar:**
   - Uçuş bilgilerini ekleme, düzenleme ve silme.
   - Havaalanı bilgilerini güncelleme.
+  - Uçak bilgilerini yönetme.
   - Kullanıcı geri bildirimlerini görüntüleme.
   - Rezervasyon ve ödeme bilgilerini yönetme.
 
@@ -42,31 +43,35 @@
    - **Nitelikler:** `HavaalaniNo`, `HavaalaniAdi`, `Sehir`
    - **Kısıtlamalar:** `HavaalaniAdi` benzersiz olmalıdır.
 
-3. **Uçuşlar (TbUcuslar)**
+3. **Uçaklar (TbUcaklar)**
+   - **Nitelikler:** `UcakID`, `UcakModeli`, `KoltukSayisi`
+   - **Kısıtlamalar:** `UcakModeli` benzersiz olmalıdır.
+
+4. **Uçuşlar (TbUcuslar)**
    - **Nitelikler:** `UcusKod`, `KalkisHavaalani`, `VarisHavaalani`, `UcakID`, `UcusTarihi`
    - **Kısıtlamalar:** `UcusKod` benzersiz olmalıdır.
 
-4. **Yolcular (TbYolcular)**
+5. **Yolcular (TbYolcular)**
    - **Nitelikler:** `YolcuID`, `YolcuAdi`, `YolcuSoyadi`, `TCNo`
    - **Kısıtlamalar:** `TCNo` benzersiz olmalıdır.
 
-5. **Rezervasyonlar (TbRezervasyon)**
+6. **Rezervasyonlar (TbRezervasyon)**
    - **Nitelikler:** `RezervasyonNo`, `UcusID`, `YolcuID`, `KullaniciID`, `RezervasyonTarihi`
    - **Kısıtlamalar:** `RezervasyonNo` benzersiz olmalıdır.
 
-6. **Bagaj (TbBagaj)**
+7. **Bagaj (TbBagaj)**
    - **Nitelikler:** `BagajID`, `RezervasyonID`, `BagajTipi`
    - **Kısıtlamalar:** `BagajID` benzersiz olmalıdır.
 
-7. **Geri Bildirim (TbGeriBildirim)**
+8. **Geri Bildirim (TbGeriBildirim)**
    - **Nitelikler:** `GeriBildirimID`, `KullaniciID`, `UcusKod`, `Mesaj`
    - **Kısıtlamalar:** `GeriBildirimID` benzersiz olmalıdır.
 
-8. **Check-in Bilgileri (TbCheckInBilgileri)**
+9. **Check-in Bilgileri (TbCheckInBilgileri)**
    - **Nitelikler:** `CheckInID`, `RezervasyonID`, `CheckInTarihi`
    - **Kısıtlamalar:** `CheckInID` benzersiz olmalıdır.
 
-9. **Ödeme (TbOdeme)**
+10. **Ödeme (TbOdeme)**
     - **Nitelikler:** `OdemeID`, `RezervasyonID`, `OdemeTarihi`, `OdemeTutari`
     - **Kısıtlamalar:** `OdemeID` benzersiz olmalıdır.
 
@@ -101,6 +106,12 @@
 7. **Rezervasyonlar ile Ödeme**
    - **İlişki Türü:** 1'e 1 (One to One)
    - **Açıklama:** Her rezervasyon için yalnızca bir ödeme kaydı vardır.
+
+---
+
+## 📝 4. Sonuç
+
+Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı yapısının tasarımında dikkate alınması gereken unsurları kapsamlı bir şekilde ele almaktadır. Her kullanıcı türü için belirlenen özellikler, sistemin kullanılabilirliğini ve yönetimini artıracak şekilde tasarlanmıştır. Bu proje, kullanıcıların ihtiyaçlarına yanıt vermek ve işlemleri etkili bir şekilde yönetmek için gerekli tüm bileşenleri içermektedir.
 
 ---
 
