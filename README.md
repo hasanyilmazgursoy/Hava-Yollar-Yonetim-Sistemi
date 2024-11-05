@@ -75,6 +75,10 @@
     - **Nitelikler:** `OdemeID`, `RezervasyonID`, `OdemeTarihi`, `OdemeTutari`
     - **Kısıtlamalar:** `OdemeID` benzersiz olmalıdır.
 
+11. **Mil Puanları (TbMilPuanlari)**
+    - **Nitelikler:** `MilPuanID`, `KullaniciID`, `ToplamMil`, `KazanmaTarihi`, `KullanmaTarihi`
+    - **Kısıtlamalar:** `MilPuanID` benzersiz olmalıdır.
+
 ---
 
 ## 🔗 3. İlişkiler ve Sayısal Kısıtlamalar
@@ -107,11 +111,9 @@
    - **İlişki Türü:** 1'e 1 (One to One)
    - **Açıklama:** Her rezervasyon için yalnızca bir ödeme kaydı vardır.
 
----
-
-## 📝 4. Sonuç
-
-Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı yapısının tasarımında dikkate alınması gereken unsurları kapsamlı bir şekilde ele almaktadır. Her kullanıcı türü için belirlenen özellikler, sistemin kullanılabilirliğini ve yönetimini artıracak şekilde tasarlanmıştır. Bu proje, kullanıcıların ihtiyaçlarına yanıt vermek ve işlemleri etkili bir şekilde yönetmek için gerekli tüm bileşenleri içermektedir.
+8. **Kullanıcılar ile Mil Puanları**
+   - **İlişki Türü:** 1'e 1 (One to One)
+   - **Açıklama:** Her kullanıcı yalnızca bir mil puanı kaydına sahip olabilir.
 
 ---
 
@@ -120,7 +122,6 @@ Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı y
 Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı yapısının tasarımında dikkate alınması gereken unsurları kapsamlı bir şekilde ele almaktadır. Her kullanıcı türü için belirlenen özellikler, sistemin kullanılabilirliğini ve yönetimini artıracak şekilde tasarlanmıştır. Bu proje, kullanıcıların ihtiyaçlarına yanıt vermek ve işlemleri etkili bir şekilde yönetmek için gerekli tüm bileşenleri içermektedir.
 
 ---
-
 ## 📐 5. ER Diyagramı
 
 ![er_1730810988443](https://github.com/user-attachments/assets/bfa7a5a9-9cbd-4bff-bbb0-858715ca7f38)
