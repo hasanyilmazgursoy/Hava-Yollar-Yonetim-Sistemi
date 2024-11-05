@@ -25,7 +25,6 @@
 - ### 👔 **Yönetici Kullanıcılar:**
   - Uçuş bilgilerini ekleme, düzenleme ve silme.
   - Havaalanı bilgilerini güncelleme.
-  - Uçak bilgilerini yönetme.
   - Kullanıcı geri bildirimlerini görüntüleme.
   - Rezervasyon ve ödeme bilgilerini yönetme.
 
@@ -43,35 +42,31 @@
    - **Nitelikler:** `HavaalaniNo`, `HavaalaniAdi`, `Sehir`
    - **Kısıtlamalar:** `HavaalaniAdi` benzersiz olmalıdır.
 
-3. **Uçaklar (TbUcaklar)**
-   - **Nitelikler:** `UcakID`, `UcakModeli`, `KoltukSayisi`
-   - **Kısıtlamalar:** `UcakModeli` benzersiz olmalıdır.
-
-4. **Uçuşlar (TbUcuslar)**
+3. **Uçuşlar (TbUcuslar)**
    - **Nitelikler:** `UcusKod`, `KalkisHavaalani`, `VarisHavaalani`, `UcakID`, `UcusTarihi`
    - **Kısıtlamalar:** `UcusKod` benzersiz olmalıdır.
 
-5. **Yolcular (TbYolcular)**
+4. **Yolcular (TbYolcular)**
    - **Nitelikler:** `YolcuID`, `YolcuAdi`, `YolcuSoyadi`, `TCNo`
    - **Kısıtlamalar:** `TCNo` benzersiz olmalıdır.
 
-6. **Rezervasyonlar (TbRezervasyon)**
+5. **Rezervasyonlar (TbRezervasyon)**
    - **Nitelikler:** `RezervasyonNo`, `UcusID`, `YolcuID`, `KullaniciID`, `RezervasyonTarihi`
    - **Kısıtlamalar:** `RezervasyonNo` benzersiz olmalıdır.
 
-7. **Bagaj (TbBagaj)**
+6. **Bagaj (TbBagaj)**
    - **Nitelikler:** `BagajID`, `RezervasyonID`, `BagajTipi`
    - **Kısıtlamalar:** `BagajID` benzersiz olmalıdır.
 
-8. **Geri Bildirim (TbGeriBildirim)**
+7. **Geri Bildirim (TbGeriBildirim)**
    - **Nitelikler:** `GeriBildirimID`, `KullaniciID`, `UcusKod`, `Mesaj`
    - **Kısıtlamalar:** `GeriBildirimID` benzersiz olmalıdır.
 
-9. **Check-in Bilgileri (TbCheckInBilgileri)**
+8. **Check-in Bilgileri (TbCheckInBilgileri)**
    - **Nitelikler:** `CheckInID`, `RezervasyonID`, `CheckInTarihi`
    - **Kısıtlamalar:** `CheckInID` benzersiz olmalıdır.
 
-10. **Ödeme (TbOdeme)**
+9. **Ödeme (TbOdeme)**
     - **Nitelikler:** `OdemeID`, `RezervasyonID`, `OdemeTarihi`, `OdemeTutari`
     - **Kısıtlamalar:** `OdemeID` benzersiz olmalıdır.
 
