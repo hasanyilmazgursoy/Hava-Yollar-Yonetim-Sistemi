@@ -117,10 +117,10 @@ Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı y
 
 ## 📐 5. ER Diyagramı
 
-### ER Diyagramı 
-![ER Diyagramı 1](https://github.com/user-attachments/assets/6efe7113-8913-4225-960f-a87e8cd895d7)
+![er_1730810988443](https://github.com/user-attachments/assets/bfa7a5a9-9cbd-4bff-bbb0-858715ca7f38)
 
 
-### ER Diyagramı 
-![ER Diyagramı 2](https://github.com/user-attachments/assets/f1bab566-3a55-4005-ba1e-5a0342d9a83a)
+
+![Adsız](https://github.com/user-attachments/assets/0c233620-94dc-423c-8f13-2033e2fba44d)
+
 
