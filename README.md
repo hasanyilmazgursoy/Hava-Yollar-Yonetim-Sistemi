@@ -115,6 +115,13 @@
    - **İlişki Türü:** 1'e 1 (One to One)
    - **Açıklama:** Her yolcu yalnızca bir mil puanı kaydına sahip olabilir.
 
+9. **Uçaklar ile Uçuşlar**
+   - **İlişki Türü:** 1'e M (One to Many)
+   - **Açıklama:** Bir uçağın birden fazla uçuşu olabilir, ancak her uçuş yalnızca bir uçağa aittir.
+
+10. **Uçuşlar ile Geri Bildirim**
+   - **İlişki Türü:** 1'e M (One to Many)
+   - **Açıklama:** Bir uçuş birden fazla geri bildirim alabilir, ancak her geri bildirim yalnızca bir uçuşa aittir.
 ---
 
 ## 📝 4. Sonuç
