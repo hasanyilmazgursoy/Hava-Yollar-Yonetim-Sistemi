@@ -120,9 +120,16 @@
    - **Açıklama:** Bir uçağın birden fazla uçuşu olabilir, ancak her uçuş yalnızca bir uçağa aittir.
 
 10. **Uçuşlar ile Geri Bildirim**
-   - **İlişki Türü:** 1'e M (One to Many)
-   - **Açıklama:** Bir uçuş birden fazla geri bildirim alabilir, ancak her geri bildirim yalnızca bir uçuşa aittir.
----
+    - **İlişki Türü:** 1'e M (One to Many)
+    - **Açıklama:** Bir uçuş birden fazla geri bildirim alabilir, ancak her geri bildirim yalnızca bir uçuşa aittir.
+
+11. **Havaalanları ile Uçuşlar**
+    - **İlişki Türü:** 1'e M (One to Many)
+    - **Açıklama:** Bir havaalanından birçok uçuş kalkış yapabilir veya varış yapabilir. Her uçuş ise belirli bir kalkış ve varış havaalanına sahiptir.
+
+12. **Rezervasyonlar ile Uçaklar**
+    - **İlişki Türü:** M'ye N (Many to Many)
+    - **Açıklama:** Bir rezervasyon birden fazla uçakta yer alabilir (özellikle aktarmalı uçuşlar için) ve bir uçak birçok rezervasyona sahip olabilir. Bu ilişkiyi yönetmek için `RezervasyonUcak` adında bir ilişki tablosu oluşturulabilir.
 
 ## 📝 4. Sonuç
 
