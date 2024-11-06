@@ -128,6 +128,7 @@
     - **Açıklama:** Bir havaalanından birçok uçuş kalkış yapabilir veya varış yapabilir. Her uçuş ise belirli bir kalkış ve varış havaalanına sahiptir.
 
 
+
 ## 📝 4. Sonuç
 
 Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı yapısının tasarımında dikkate alınması gereken unsurları kapsamlı bir şekilde ele almaktadır. Her kullanıcı türü için belirlenen özellikler, sistemin kullanılabilirliğini ve yönetimini artıracak şekilde tasarlanmıştır. Bu proje, kullanıcıların ihtiyaçlarına yanıt vermek ve işlemleri etkili bir şekilde yönetmek için gerekli tüm bileşenleri içermektedir.
@@ -136,6 +137,11 @@ Bu gereksinimler ve ilişkiler, Hava Yolları Yönetim Sistemi'nin veritabanı y
 ## 📐 5. ER Diyagramı
 
 ![er_1730810988443](https://github.com/user-attachments/assets/bfa7a5a9-9cbd-4bff-bbb0-858715ca7f38)
+
+
+6.Foreign Key ve Referansları
+![WhatsApp Görsel 2024-11-06 saat 10 22 12_dbc1275d](https://github.com/user-attachments/assets/3467173e-b246-432f-8603-12f84d102f57)
+
 
 
 
