@@ -41,11 +41,11 @@
 
 2. **Havaalanları (TbHavaalanlari)**
    - **Nitelikler:** `HavaalaniNo`, `HavaalaniAdi`, `Sehir`
-   - **Kısıtlamalar:** `HavaalaniAdi` benzersiz olmalıdır.
+   - **Kısıtlamalar:** `HavaalaniNo` benzersiz olmalıdır.
 
 3. **Uçaklar (TbUcaklar)**
    - **Nitelikler:** `UcakID`, `UcakModeli`, `KoltukSayisi`
-   - **Kısıtlamalar:** `UcakModeli` benzersiz olmalıdır.
+   - **Kısıtlamalar:** `UcakID` benzersiz olmalıdır.
 
 4. **Uçuşlar (TbUcuslar)**
    - **Nitelikler:** `UcusKod`, `KalkisHavaalani`, `VarisHavaalani`, `UcakID`, `UcusTarihi`
