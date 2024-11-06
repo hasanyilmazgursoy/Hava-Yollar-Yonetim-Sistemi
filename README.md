@@ -111,9 +111,9 @@
    - **İlişki Türü:** 1'e 1 (One to One)
    - **Açıklama:** Her rezervasyon için yalnızca bir ödeme kaydı vardır.
 
-8. **Kullanıcılar ile Mil Puanları**
+8. **Yolcular ile Mil Puanları**
    - **İlişki Türü:** 1'e 1 (One to One)
-   - **Açıklama:** Her kullanıcı yalnızca bir mil puanı kaydına sahip olabilir.
+   - **Açıklama:** Her yolcu yalnızca bir mil puanı kaydına sahip olabilir.
 
 ---
 
