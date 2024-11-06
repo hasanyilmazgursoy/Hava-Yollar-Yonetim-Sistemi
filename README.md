@@ -127,9 +127,6 @@
     - **İlişki Türü:** 1'e M (One to Many)
     - **Açıklama:** Bir havaalanından birçok uçuş kalkış yapabilir veya varış yapabilir. Her uçuş ise belirli bir kalkış ve varış havaalanına sahiptir.
 
-12. **Rezervasyonlar ile Uçaklar**
-    - **İlişki Türü:** M'ye N (Many to Many)
-    - **Açıklama:** Bir rezervasyon birden fazla uçakta yer alabilir (özellikle aktarmalı uçuşlar için) ve bir uçak birçok rezervasyona sahip olabilir. Bu ilişkiyi yönetmek için `RezervasyonUcak` adında bir ilişki tablosu oluşturulabilir.
 
 ## 📝 4. Sonuç
 
