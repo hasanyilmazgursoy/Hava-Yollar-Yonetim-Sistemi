@@ -122,7 +122,6 @@
 10. **Uçuşlar ile Geri Bildirim**
    - **İlişki Türü:** 1'e M (One to Many)
    - **Açıklama:** Bir uçuş birden fazla geri bildirim alabilir, ancak her geri bildirim yalnızca bir uçuşa aittir.
-
 ---
 
 ## 📝 4. Sonuç
