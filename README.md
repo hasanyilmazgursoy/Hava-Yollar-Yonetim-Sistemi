@@ -1,9 +1,9 @@
 # ✈️ Hava Yolları Yönetim Sistemi
 
 ## 👨‍🎓 Projeyi Yapan Öğrenciler
-- **Hasan Yılmaz Gürsoy**
-- **Muhammet Eray Yıldırım**
-- **Ahmet Taha Ural**
+- **Hasan Yılmaz Gürsoy 215260008**
+- **Muhammet Eray Yıldırım 225260080**
+- **Ahmet Taha Ural 225260014**
 
 ---
 
